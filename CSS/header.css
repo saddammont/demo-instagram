@@ -1,0 +1,18 @@
+header
+{
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    height: 54px;
+    width: 100%;
+    
+    align-items: center;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+#logoInsta
+{
+    margin-top: 7px;
+}
