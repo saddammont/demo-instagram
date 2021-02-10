@@ -2,12 +2,10 @@ header
 {
     display: flex;
     top: 0;
-    justify-content: space-around;
     height: 54px;
     width: 100%;
-    
     align-items: center;
-    border-bottom: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid #dadada;
     position: fixed;
     z-index: 1;
     background-color: white;
@@ -15,4 +13,28 @@ header
 #logoInsta
 {
     margin-top: 7px;
+    position: relative;
+    left: 13rem;
 }
+#search-box
+{
+    position: relative;
+    left: 29rem;
+    width: 177px;
+    height: 20px;
+    margin-top: -5px;
+}
+#search
+{
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    padding: 6px 18px 6px 26px;
+    text-align: center;
+    
+    font-size: 13px;
+}
+ #iconos img
+ {
+    width: auto;
+    height: 1rem;
+ }
